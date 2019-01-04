@@ -210,7 +210,7 @@ if __name__=='__main__':
     test=[]
     for data in dataSet[:30]:
         test.append(data[:-1])
-    print(test)
+    # print(test)
     for data in test:
         print(classify_c(tree, labels, labelProperty, data))
 
